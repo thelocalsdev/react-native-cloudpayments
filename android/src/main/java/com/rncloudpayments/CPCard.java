@@ -22,6 +22,8 @@ import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
 import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
+import com.rncloudpayments.CPCardType;
+
 public class CPCard {
 
     private String number;
